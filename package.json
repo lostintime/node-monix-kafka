@@ -13,11 +13,11 @@
     "Rx"
   ],
   "bugs": {
-    "url": "https://github.com/lostintime/monix-kafka/issues"
+    "url": "https://github.com/lostintime/node-monix-kafka/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/lostintime/monix-kafka.git"
+    "url": "https://github.com/lostintime/node-monix-kafka.git"
   },
   "scripts": {
     "clean": "([ -e ./dist ] && rm -R ./dist) || true",
