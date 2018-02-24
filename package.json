@@ -1,0 +1,38 @@
+{
+  "name": "monix-kafka",
+  "author": "lostintime <lostintime.dev@gmail.com>",
+  "version": "0.0.1",
+  "license": "Apache-2.0",
+  "description": "Monix-Kafka client for Javascript, Typescript and Flow",
+  "main": "dist/lib/index.js",
+  "types": "dist/lib/index.d.ts",
+  "keywords": [
+    "TypeScript",
+    "kafka",
+    "monix",
+    "Rx"
+  ],
+  "bugs": {
+    "url": "https://github.com/lostintime/monix-kafka/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lostintime/monix-kafka.git"
+  },
+  "scripts": {
+    "clean": "([ -e ./dist ] && rm -R ./dist) || true",
+    "build": "tsc",
+    "lint": "tslint --project tsconfig.json",
+    "test": "tsc && mocha \"dist/test/\""
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.2",
+    "@types/mocha": "^2.2.48",
+    "chai": "^4.1.2",
+    "mocha": "^5.0.0",
+    "tslint": "^5.9.1",
+    "tslint-config-standard": "^7.0.0",
+    "tslint-eslint-rules": "^5.0.0",
+    "typescript": "^2.7.2"
+  }
+}
